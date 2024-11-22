@@ -4,10 +4,11 @@
     --white: hsl(0, 0%, 100%);
     --gray-500: hsl(0, 0%, 42%);
     --gray-950: hsl(0, 0%, 7%);
-    --font-family: 'Figtree', sans-serif;
+    --font-family: "Figtree", sans-serif;
     --font-weight-regular: 500;
     --font-weight-bold: 800;
 }
+
 /* CSS Reboot (Reset) */
 
 /* Remove default margins and paddings */
@@ -18,7 +19,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 
 /* Remove list styles */
 ul,
@@ -46,10 +46,31 @@ svg {
 /* Set a consistent font family and line-height */
 body {
     min-height: 100vh;
-    font-family: var(--font-primary);
+    font-family: var(--font-family);
+    color: var(--gray-950);
     line-height: 1.5;
     text-align: left;
-    background-color: var(--color-grey-900);
-    color: var(--color-white);
-    padding: 3%;
+    background-color: var(--yellow);
+    padding: 20% 7%;
+}
+
+.container-body {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+    border: 0.1rem solid var(--gray-950);
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.illustration {
+    min-width: 150px;
+    border-radius: 1rem;
+    padding-bot: 10rem;
+}
+
+h1 {
+    background-color: var(--yellow);
+    font-size: 0.8rem;
 }
