@@ -1,0 +1,55 @@
+/* Define CSS Variables for Colors */
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+    --font-family: 'Figtree', sans-serif;
+    --font-weight-regular: 500;
+    --font-weight-bold: 800;
+}
+/* CSS Reboot (Reset) */
+
+/* Remove default margins and paddings */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove link underlines */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Set consistent image behavior */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set a consistent font family and line-height */
+body {
+    min-height: 100vh;
+    font-family: var(--font-primary);
+    line-height: 1.5;
+    text-align: left;
+    background-color: var(--color-grey-900);
+    color: var(--color-white);
+    padding: 3%;
+}
