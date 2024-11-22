@@ -48,29 +48,77 @@ body {
     min-height: 100vh;
     font-family: var(--font-family);
     color: var(--gray-950);
-    line-height: 1.5;
+    line-height: 1.2;
     text-align: left;
     background-color: var(--yellow);
-    padding: 20% 7%;
+    padding: 10rem 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-body {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    padding: 1.3rem;
+    padding: 1rem;
+    max-width: 23rem;
     border: 0.1rem solid var(--gray-950);
     border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem black;
     margin: auto;
 }
 
 .illustration {
-    min-width: 150px;
     border-radius: 1rem;
-    padding-bot: 10rem;
+    margin-bottom: 2rem;
+}
+
+.learning__container {
+    background-color: var(--yellow);
+    padding: 0.5rem;
+    max-width: 5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 h1 {
-    background-color: var(--yellow);
+    font-weight: var(--font-weight-bold);
+    font-size: 0.9rem;
+}
+
+h2 {
+
     font-size: 0.8rem;
+    font-weight: var(--font-weight-regular);
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.main-text {
+    color: var(--gray-500);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.name {
+    font-weight: var(--font-weight-bold);
 }
